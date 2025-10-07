@@ -1,0 +1,29 @@
+# Android / Gradle
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+.DS_Store
+
+# NDK / C++
+*.so
+obj/
+libs/
+cmake-build-debug/
+cmake-build-release/
+
+# APK outputs
+app/build/
+*.apk
+*.aab
+
+# Generated files
+captures/
+outputs/
+
+# Logs
+*.log
+
+# OS-specific
+Thumbs.db
