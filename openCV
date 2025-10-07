@@ -1,0 +1,3 @@
+cv::Mat gray, edges;
+cv::cvtColor(src, gray, cv::COLOR_RGBA2GRAY);
+cv::Canny(gray, edges, 50, 150);
